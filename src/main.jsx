@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
+        <BrowserRouter basename='/node_fs97_front_KristinaHranovska'>
           <HelmetProvider>
             <ModalProvider>
               <TourProvider steps={steps} styles={tourStyles}>
